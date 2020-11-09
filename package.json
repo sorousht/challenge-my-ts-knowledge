@@ -15,7 +15,7 @@
     "test": "jest",
     "stash": "git add . && git stash",
     "checkout-next": "git checkout next",
-    "intro": "echo 'Welcome to challenge 01: Testing it",
+    "intro": "echo 'Welcome to challenge 02: Working fine'",
     "checkout-prev": "git checkout prev",
     "next": "run-s stash checkout-next intro",
     "previous": "run-s stash checkout-prev intro"
