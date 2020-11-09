@@ -1,0 +1,26 @@
+{
+  "name": "challenge-my-ts-knowledge",
+  "version": "1.0.0",
+  "description": "A collection of interactive challenges that brings your TypeScript knowledge to the next level!",
+  "main": "index.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.2",
+    "ts-jest": "^26.4.3",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorousht/challenge-my-ts-knowledge.git"
+  },
+  "author": "Soroush Torkzadeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sorousht/challenge-my-ts-knowledge/issues"
+  },
+  "homepage": "https://github.com/sorousht/challenge-my-ts-knowledge#readme"
+}
