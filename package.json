@@ -7,11 +7,17 @@
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "jest": "^26.6.2",
+    "npm-run-all": "^4.1.5",
     "ts-jest": "^26.4.3",
     "typescript": "^4.0.5"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "stash": "git add . && git stash",
+    "checkout-next": "git checkout next",
+    "checkout-prev": "git checkout prev",
+    "next": "run-s stash checkout-next",
+    "previous": "run-s stash checkout-prev"
   },
   "repository": {
     "type": "git",
