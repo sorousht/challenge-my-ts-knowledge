@@ -15,9 +15,10 @@
     "test": "jest",
     "stash": "git add . && git stash",
     "checkout-next": "git checkout next",
+    "intro": "echo 'Welcome to challenge 01: Testing it",
     "checkout-prev": "git checkout prev",
-    "next": "run-s stash checkout-next",
-    "previous": "run-s stash checkout-prev"
+    "next": "run-s stash checkout-next intro",
+    "previous": "run-s stash checkout-prev intro"
   },
   "repository": {
     "type": "git",
