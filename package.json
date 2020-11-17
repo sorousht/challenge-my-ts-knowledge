@@ -13,12 +13,11 @@
   },
   "scripts": {
     "test": "jest",
+    "intro": "echo 'Welcome to challenge 01: undefined vs null'",
     "stash": "git add . && git stash",
     "checkout-next": "git checkout next",
-    "intro": "echo 'Welcome to challenge 02: Working fine'",
-    "checkout-prev": "git checkout prev",
     "next": "run-s stash checkout-next intro",
-    "previous": "run-s stash checkout-prev intro"
+    "previous": "echo 'You are at the first challenge, looking for more? type \"npm run next\"'"
   },
   "repository": {
     "type": "git",
