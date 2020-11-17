@@ -10,5 +10,6 @@ if (foo == undefined) {
 }
 ```
 
-
+TypeScript has a utility type for this purpose: NonNullable<T>
+Check it out here: https://www.typescriptlang.org/docs/handbook/utility-types.html#nonnullabletype
 
