@@ -15,9 +15,8 @@
     "test": "jest",
     "intro": "echo 'Welcome to challenge 01: undefined vs null'",
     "stash": "git add . && git stash",
-    "prepare": "npm i",
-    "checkout-next": "git checkout 02-type-utilities",
-    "next": "run-s stash checkout-next prepare intro",
+    "checkout-next": "git checkout 02-type-utilities && npm i",
+    "next": "run-s stash checkout-next intro",
     "previous": "echo 'You are at the first challenge, looking for more? type \"npm run next\"'"
   },
   "repository": {
