@@ -37,7 +37,10 @@ const createServer = (): Express => {
   const app = express();
   
   app.get('/contract', (req, res) => {
-    // FIXME: This function is missing. Take a look at the test case and try to implement the function
+    /*  FIXME
+        The below function is missing. It should not be challenging
+        to implement the logic, but you gotta think about the return type carefully!
+    */
     res.json(mapToContractView(contract));
   });
 
