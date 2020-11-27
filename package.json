@@ -14,6 +14,7 @@
   "scripts": {
     "test": "jest",
     "checkout-next": "git checkout 01-null-vs-undefined && npm i",
+    "intro": "",
     "start": "run-s checkout-next intro"
   },
   "repository": {
