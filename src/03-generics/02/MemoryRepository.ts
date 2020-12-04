@@ -21,7 +21,7 @@ export class MemoryRepository<T extends Identity> implements Repository<T> {
     2. FIXME
     Once you added the definition of "update" and "removeById" to Repository interface,
     try to implement those two methods here according to the interface, only throwing an error,
-    like the following example which is the very first stupid implementation of method "add":
+    like the following example that is the very first stupid implementation of method "add":
 
     add = (item: Omit<T, 'id'>): T => {
       throw new Error("Method not implemented.");

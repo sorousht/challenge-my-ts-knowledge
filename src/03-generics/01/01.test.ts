@@ -1,15 +1,4 @@
-/*
-  FIXME
-
-  Below, you will find a simple function that returns value of
-  a given property, implemented in JavaScript!
-
-  We just need a bit of typing on top to compile the code.
-  Hint: You remember the name of this module, right? :)
-*/
-const getPropertyValue = (obj, prop) => {
-  return obj[prop];
-};
+import { getPropertyValue } from './01';
 
 describe('getPropertyValue', () => {
   test('return the given property value', () => {
