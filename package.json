@@ -20,7 +20,7 @@
     "test": "jest",
     "intro": "echo 'Welcome to challenge 03: Generics'",
     "stash": "git add . && git stash",
-    "checkout-next": "git checkout <FIX> && npm i",
+    "checkout-next": "git checkout 04-union-and-intersection && npm i",
     "checkout-prev": "git checkout 02-type-utilities && npm i",
     "next": "run-s stash checkout-next intro",
     "previous": "run-s stash checkout-prev intro"
