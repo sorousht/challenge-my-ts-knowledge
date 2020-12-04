@@ -4,7 +4,7 @@
   Below, you will find a simple function that returns value of
   a given property, implemented in JavaScript!
 
-  We just need a bit of typing to be added to compile the code.
+  We just need a bit of typing on top to compile the code.
   Hint: You remember the name of this module, right? :)
 */
 const getPropertyValue = (obj, prop) => {
