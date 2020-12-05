@@ -13,11 +13,10 @@
   },
   "scripts": {
     "test": "jest",
-    "intro": "echo 'Welcome to challenge 04: Union and Intersection'",
+    "intro": "echo 'Welcome to challenge 05: The next level TypeScript'",
     "stash": "git add . && git stash",
-    "checkout-next": "git checkout 05-next-level-ts && npm i",
-    "checkout-prev": "git checkout 03-generics && npm i",
-    "next": "run-s stash checkout-next intro",
+    "checkout-prev": "git checkout 04-union-and-intersection && npm i",
+    "next": "echo 'Well done, look how far you've come!'",
     "previous": "run-s stash checkout-prev intro"
   },
   "repository": {
