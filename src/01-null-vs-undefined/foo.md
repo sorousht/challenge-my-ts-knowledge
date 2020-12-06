@@ -1,8 +1,8 @@
 You have not been asked to check the content of this file,
 but you are curious and you will be rewarded with a valuable tip!
 
-To check against either null or "undefined", double equal "==" can be used.
-As an example, the below condition is met, when the value of "foo" is neither "null" nor "undefined".
+To check against either `null` or `undefined`, double equal `==` can be used.
+As an example, the below condition is met, when the value of `foo` is either `null` nor `undefined`.
 
 ```ts
 if (foo == undefined) {
