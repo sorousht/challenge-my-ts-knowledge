@@ -13,7 +13,7 @@
   },
   "scripts": {
     "test": "jest",
-    "checkout-next": "git checkout 01-null-vs-undefined && npm i",
+    "checkout-next": "git checkout 01-null-vs-undefined && npm ci",
     "intro": "",
     "start": "run-s checkout-next intro"
   },
