@@ -20,8 +20,8 @@
     "test": "jest",
     "intro": "echo 'Welcome to challenge 02: Type Utilities'",
     "stash": "git add . && git stash",
-    "checkout-next": "git checkout 03-generics && npm i",
-    "checkout-prev": "git checkout 01-null-vs-undefined && npm i",
+    "checkout-next": "git checkout 03-generics && npm ci",
+    "checkout-prev": "git checkout 01-null-vs-undefined && npm ci",
     "next": "run-s stash checkout-next intro",
     "previous": "run-s stash checkout-prev intro"
   },
