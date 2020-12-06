@@ -15,8 +15,8 @@
     "test": "jest",
     "intro": "echo 'Welcome to challenge 04: Union and Intersection'",
     "stash": "git add . && git stash",
-    "checkout-next": "git checkout 05-next-level && npm i",
-    "checkout-prev": "git checkout 03-generics && npm i",
+    "checkout-next": "git checkout 05-next-level && npm ci",
+    "checkout-prev": "git checkout 03-generics && npm ci",
     "next": "run-s stash checkout-next intro",
     "previous": "run-s stash checkout-prev intro"
   },
