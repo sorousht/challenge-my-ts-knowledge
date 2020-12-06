@@ -15,7 +15,7 @@
     "test": "jest",
     "intro": "echo 'Welcome to challenge 05: The next level TypeScript'",
     "stash": "git add . && git stash",
-    "checkout-prev": "git checkout 04-union-and-intersection && npm i",
+    "checkout-prev": "git checkout 04-union-and-intersection && npm ci",
     "next": "echo 'Well done, look how far you have come!'",
     "previous": "run-s stash checkout-prev intro"
   },
