@@ -1,7 +1,3 @@
-type PrefixKey<Key, Prefix extends string> = Key extends `${infer Value}` 
-  ? `${Prefix}_${Value}`
-  : never;
-
 type GeneralProductDetails = {
   okz: string;
   hsn: string;
@@ -17,6 +13,10 @@ type GeneralProductDetails = {
   costSharingTK: '0' | '150' | '300' | '500' | '1000';
   costSharingVK: '0' | '150' | '300' | '500' | '1000' | '2500';
 }
+
+type PrefixKey<Key, Prefix extends string> = Key extends `${infer Value}` 
+  ? `${Prefix}_${Value}`
+  : never;
 
 type PkwProductDetails = {
 	[K in keyof GeneralProductDetails as PrefixKey<K, 'pkw'>]: GeneralProductDetails[K]
