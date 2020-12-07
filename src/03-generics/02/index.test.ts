@@ -43,7 +43,8 @@ describe('MemoryRepository', () => {
   });
   /*
     3. FIXME
-    Uncomment the below test cases to learn more about implementing "removeById" and "update"
+    Uncomment the below test cases to learn more about implementing "removeById" and "update".
+    Find more about generics: https://www.typescriptlang.org/docs/handbook/generics.html
   */
 
   // describe('removeById', () => {
