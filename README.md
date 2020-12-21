@@ -1,4 +1,6 @@
-# challenge-my-ts-knowledge
+![TypeScript Logo](ts-lettermark-blue.png)
+
+# Challenge My TypeScript Knowledge
 A collection of interactive challenges that brings your TypeScript knowledge to the next level!
 
 ## Note to the warrior
