@@ -1,4 +1,6 @@
-# challenge-my-ts-knowledge
+![TypeScript Logo](ts-lettermark-blue.png)
+
+# Challenge My TypeScript Knowledge
 A collection of interactive challenges that brings your TypeScript knowledge to the next level!
 
 ## Note to the warrior
@@ -11,6 +13,11 @@ Clone and install all the dependencies:
 ```bash
 $ git clone https://github.com/sorousht/challenge-my-ts-knowledge.git
 $ npm i
+```
+
+To dive into the first challenge:
+```bash
+$ npm run start
 ```
 
 Find all occurrences of `FIXME` in the code. There you need to adjust the code. To find out if your solution fits, run the following command:
